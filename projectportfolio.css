@@ -1,0 +1,313 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.left{
+    
+    display: inline-block;    
+    position: absolute;
+    left: 90px;
+    top: 30px;
+}
+.mid{
+    
+    display: inline-block;    
+    position: absolute;
+   left:200px;
+    top: 23px;
+   }
+.right{
+   
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 26px; 
+      
+    
+}
+.navbar li{
+    display: inline; 
+    overflow: hidden;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.navbar li a{    
+    color: white;    
+    text-decoration: none;
+    padding: 50px;
+    font-size: 23px;
+    /* Padding is used to create space around an element's content, inside of any defined borders. */
+}
+.left img{
+    height: 50px;
+    filter: contrast(0%);     
+    }
+.header{
+    display: block;
+    
+    height: 100px;
+    width: 1550px;
+    background-color: #001a4d ;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+   
+}
+.middle{
+    background-color: #d3d303ee;
+    display: block;
+    height: 650px;
+    width: 1550px;
+}
+
+.word{    
+    color: black;
+    line-height: 37px;
+    position: absolute;
+    left: 800px;
+    top: 160px;
+    font-size: 30px;
+    text-align: right;
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: -0px;
+}
+.first_bk{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.first_bk a{
+ color:rgb(206, 133, 38);
+}
+.icon_shield
+{
+color: black;
+}
+.secbk{
+    background-color: #001a4d;
+    display:block;
+    top: 100px;
+    height:2450px;
+    width: 1550px;
+}
+.img{   
+    margin: 100px 170px;   
+   filter:grayscale(100%);
+   width: 550px;
+  }
+.text{  
+   
+position: absolute;
+top:680px;
+left:380px;
+font-size: 100px;
+font-family: 'Baloo Tammudu 2', cursive;
+}
+.design h3{
+  
+    display: inline-block;
+    font-size: 170px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 500px 400px;
+}
+.button{
+    background-color: #ecec3e;
+    border:none;    
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.lor{ 
+    position:relative;
+    left: 400px;
+    top: -650px;  
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    display: inline-block;
+    padding: 0px;
+    width: 1000px;    
+    font-size: 25px;
+}
+.row{
+    
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0 px;
+    margin: -550px 180px;
+     
+}
+.coloumn{  
+    display: flex;  
+    padding: 0px 0px;
+
+}
+.coloumn img{ 
+    width: 350px;
+    height: 320px;
+    padding: 20px 20px;    
+    margin: 0;  
+
+}
+.end{
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    margin: 25px 500px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.unsplash{
+    color: rgb(241, 236, 203);
+
+}
+
+.seclast{
+    background-color: #d3d303ee;
+    
+    display: block;
+    height: 500px;
+    width: 1550px;
+}
+.no-outline:focus
+{
+    outline:none;
+    font-family: 'Nunito', sans-serif;
+}
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:line;
+    background-color: #d3d303ee;
+   
+    width: 500px;
+    height: 50px;
+}
+textarea{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:line;
+    background-color: #d3d303ee;    
+    width: 500px;
+    height: 150px;
+}
+.email{
+   
+    display: inline-block;
+    margin: 70px 220px;
+    
+   
+}
+.submit{
+    background-color: #d3d303ee;    
+     border:none;    
+    text-align: center;
+    padding: 20px 25px 25px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    border: black solid ;
+    width: 100px;
+    height: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.submit:hover{
+    background-color: black;
+    color: white;
+}
+.con{
+  
+    position: absolute;
+    top:3200px;
+    left:850px;
+    font-size: 50px;
+    font-family: 'Hammersmith One', sans-serif;
+   
+    }
+.twt{ 
+    color: black;
+    display: block;
+    position: relative;
+    left: 90px ;
+    top: -60px;
+}
+.number{
+    color: black;
+position: relative;
+left: 70px;
+top:-20px;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+.last-line
+{
+    background-color: #001a4d ;
+    height: 50px;
+}
+.first_button{
+    /* background-color: #98b4eb ;   
+    border:none;    
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    
+    color: black;  
+    font-weight: bold;  
+    border: black solid;
+    font-family: 'Merriweather Sans', sans-serif;
+    border-radius: 12px; */
+    background-color: #4c66af;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+ border-radius: 25px;
+    font-size: 16px;
+    display: inline-block;
+    position:relative;
+    top: -48px;
+    cursor: pointer;
+     font-family: 'Merriweather Sans', sans-serif;
+    }
+.first_button:hover{
+    background-color: white;
+    color: black;
+}
+.sau{
+    
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+}
+.sau span{
+    color: rgb(73, 131, 165);
+}
+.ima{
+   font-size: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ima span{
+    color: rgb(206, 133, 38);
+}
+
+ 
